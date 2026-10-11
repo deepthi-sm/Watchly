@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fredoka:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+:root { font-family: 'Fredoka', sans-serif; color: #492d67; background: #fff5fb; } * { box-sizing: border-box; } body { margin: 0; min-width: 320px; min-height: 100vh; overflow: hidden; } button, input { font: inherit; } button { cursor: pointer; }
+.app-shell { height: 100dvh !important; min-height: 0 !important; overflow: hidden !important; }
+.workspace { height: 100dvh !important; min-height: 0 !important; overflow: hidden !important; }
+.page { height: 100% !important; min-height: 0 !important; overflow: hidden !important; }
+.chat-page { display: grid !important; grid-template-rows: auto auto minmax(0, 1fr) auto !important; }
+.messages { display: block !important; min-height: 0 !important; height: auto !important; overflow-y: auto !important; }
+.composer { position: relative !important; margin: 0 !important; min-height: 0 !important; }
+.how-grid { height: calc(100dvh - 170px) !important; max-height: none !important; overflow: hidden !important; }
+.how-grid .graph-window { height: 100% !important; min-height: 0 !important; overflow: hidden !important; }
+.how-grid .graph-window .info-body { height: 100% !important; min-height: 0 !important; max-height: 100% !important; overflow: hidden !important; padding: 12px !important; }
+.how-grid .graph-window .info-body:before { flex: 0 1 auto !important; max-height: 190px !important; margin: 6px auto !important; padding: 12px !important; font-size: clamp(8px, 1vw, 11px) !important; line-height: 1.35 !important; overflow: hidden !important; }
+.how-grid .graph-window pre { flex: 0 0 34px !important; min-height: 0 !important; max-height: 34px !important; margin: 6px 0 0 !important; padding: 5px !important; overflow: hidden !important; font-size: 6px !important; line-height: 1 !important; }
+.how-grid .graph-window .caption { display: none !important; }

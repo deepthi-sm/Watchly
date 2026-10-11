@@ -1,0 +1,8 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.9
+python-dotenv>=1.0
+google-genai>=1.0
+langgraph>=0.2
+langchain-core>=0.3
+grandalf>=0.8

@@ -1,0 +1,7 @@
+.env
+secrets/*.json
+__pycache__/
+*.pyc
+watchly.db
+frontend/node_modules/
+frontend/dist/
